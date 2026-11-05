@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Interactive maps – currently unavailable</title>
+<title>Interactive maps – no longer available</title>
 <style>
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -40,8 +40,27 @@
     font-weight: 600;
     margin: 0.3rem;
   }
-  a.contact:hover {
+  a.contact:hover, a.preprint:hover {
     opacity: 0.9;
+  }
+  a.preprint {
+    display: inline-block;
+    background: #fff;
+    color: #0063A6;
+    text-decoration: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+  p.citation {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 0.9;
+  }
+  p.citation a {
+    color: #fff;
   }
   .authors {
     margin-top: 1.8rem;
@@ -66,12 +85,20 @@
 </head>
 <body>
   <div class="card">
-    <h1>This map is currently not publicly available</h1>
+    <h1>This map is no longer available</h1>
     <p>
-      As part of the ongoing research project "Geographies of Electioneering",
-      this interactive map is currently not freely accessible.
-      If you're interested in the paper or the visualization, feel free to reach out.
+      The interactive maps of the research project "Geographies of Electioneering"
+      have been taken offline. The paper is now available as a preprint:
     </p>
+
+    <a class="preprint" href="https://doi.org/10.31235/osf.io/fqhy9" target="_blank" rel="noopener">Read the preprint</a>
+    <p class="citation">
+      Gahn, C., &amp; Klingelhöfer, T. (2026). The Geography of Electioneering in Multi-Party Systems:
+      Evidence from Campaign Poster Locations in Central Berlin. SocArXiv.
+      <a href="https://doi.org/10.31235/osf.io/fqhy9" target="_blank" rel="noopener">doi.org/10.31235/osf.io/fqhy9</a>
+    </p>
+
+    <p>For questions about the project, feel free to reach out.</p>
 
     <a class="contact" id="contact-christina" href="#">Contact Christina</a>
     <a class="contact" id="contact-tristan" href="#">Contact Tristan</a>
@@ -82,11 +109,11 @@
     </div>
 
     <p>
-      For more information about the project and the abstract, see our announcement posts:
+      See also our announcement posts:
     </p>
     <div class="links">
-      <a class="secondary" href="https://bsky.app/profile/christinagahn.bsky.social/post/3moi6cizwhk2e" target="_blank" rel="noopener">Bluesky announcement</a>
-      <a class="secondary" href="https://www.linkedin.com/feed/update/urn:li:activity:7472966331437527041/" target="_blank" rel="noopener">LinkedIn announcement</a>
+      <a class="secondary" href="https://bsky.app/profile/christinagahn.bsky.social/post/3mzl5ykswek2j" target="_blank" rel="noopener">Bluesky announcement</a>
+      <a class="secondary" href="https://www.linkedin.com/posts/christinagahn_where-do-parties-hang-their-election-posters-share-7524129161586728961-Cfo3/" target="_blank" rel="noopener">LinkedIn announcement</a>
     </div>
   </div>
 
